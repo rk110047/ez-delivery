@@ -1,0 +1,56 @@
+Arguments: 
+  /home/ravinder/.nvm/versions/node/v14.4.0/bin/node /usr/local/bin/yarnpkg install
+
+PATH: 
+  /tmp/yarn--1594574190934-0.21238314107498568:/home/ravinder/shopswift/node_modules/.bin:/home/ravinder/.config/yarn/link/node_modules/.bin:/home/ravinder/.yarn/bin:/home/ravinder/.nvm/versions/node/v14.4.0/libexec/lib/node_modules/npm/bin/node-gyp-bin:/home/ravinder/.nvm/versions/node/v14.4.0/lib/node_modules/npm/bin/node-gyp-bin:/home/ravinder/.nvm/versions/node/v14.4.0/bin/node_modules/npm/bin/node-gyp-bin:/home/ravinder/.nvm/versions/node/v14.4.0/bin:/home/ravinder/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  14.4.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect ENETUNREACH 13.234.176.102:443 - Local (0.0.0.0:0)
+      at internalConnect (net.js:919:16)
+      at defaultTriggerAsyncIdScope (internal/async_hooks.js:378:12)
+      at emitLookup (net.js:1059:9)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:107523:28
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:107432:13
+      at RawTask.module.exports.RawTask.call (/usr/local/lib/node_modules/yarn/lib/cli.js:83613:19)
+      at flush (/usr/local/lib/node_modules/yarn/lib/cli.js:83695:29)
+      at processTicksAndRejections (internal/process/task_queues.js:79:11)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~38.0.8",
+      "expo-status-bar": "^1.0.2",
+      "react": "~16.11.0",
+      "react-dom": "~16.11.0",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
+      "react-native-web": "~0.11.7"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.8.6",
+      "babel-preset-expo": "~8.1.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
